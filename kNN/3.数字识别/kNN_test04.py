@@ -3,7 +3,8 @@ import numpy as np
 import operator
 from os import listdir
 from sklearn.neighbors import KNeighborsClassifier as kNN
-
+import os
+os.chdir('D:\\MLlearning\\Machine-Learning\\kNN\\3.数字识别')
 """
 函数说明:将32x32的二进制图像转换为1x1024向量。
 
